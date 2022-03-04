@@ -1659,7 +1659,7 @@ mark {
 
 .text-center {
     text-align: center
-}
+}   
 
 .text-justify {
     text-align: justify
@@ -1989,6 +1989,7 @@ pre code {
     .container {
         width: 750px
     }
+    
 }
 
 @media (min-width:992px) {
@@ -2012,7 +2013,7 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -4px
 }
 
 .col-lg-1,
@@ -2302,6 +2303,7 @@ pre code {
     .col-sm-8,
     .col-sm-9 {
         float: left
+        
     }
     .col-sm-12 {
         width: 100%
@@ -5240,7 +5242,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
 
 @media (min-width:768px) {
     .navbar-toggle {
-        display: none
+        display: none;
     }
 }
 

@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    
     background-size: 280px 280px;
 }
 
@@ -271,7 +271,17 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
-
+#citation-text{
+    font-size: 1.3em;
+    font-style: italic;
+    color: #575757!important;
+    line-height: inherit;
+}
+#citation-auteur {
+    font-size: 1em;
+    font-style: normal;
+    color: #575757!important;
+}
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -379,9 +389,7 @@ a:hover {
         font-size:17px;
         padding-left:50px;
     }
-    .nav>li>a:hover{
-        color:#F3976C!important;
-    }
+    
     .nav-invert .site-navigation {
         left: 0;
         right: 0;
@@ -658,7 +666,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 400;
+    font-weight: 600;
     color: #575757!important;
 }
 
@@ -685,7 +693,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -707,17 +715,22 @@ p {
     font-weight: 700;
 }
 
-.social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+.social-content {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 35px 0;
+    width: 100%;
+    margin: auto;
+    height: 10px;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 25px;
     line-height: 1.4em;
 }
 
 h3 {
+    padding-bottom: 20px;
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -731,7 +744,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #FFFFFF!important;
 }
 
 h4 {
@@ -779,20 +792,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#003459;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #003459;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #004a80!important;
     color: #FFFFFF!important;
 }
 
@@ -830,7 +843,12 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
+}
+.right-column {
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 @media (max-width: 1024px) {
@@ -1047,4 +1065,5 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    
 }
